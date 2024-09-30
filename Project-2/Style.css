@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: crimson;
+}
+
+h1{
+    text-align: center;
+    color: chartreuse;
+    padding: 5px;
+    margin: auto;
+}
+
+.T{
+    height: 560px;
+    width: 700px;
+    border: 2px solid black;
+    margin: auto;
+    padding: auto;
+    background-color: aqua;
+}
+
+.R{
+    height: 130px;
+    width: 680px;
+    padding: auto;
+    margin: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.C{
+    height: 120px;
+    width: 155px;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.C img{
+    height: 100%;
+    width: 100%;
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+
+p{
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 1px;
+    text-align: center;
+    font-size: 20px;
+    color: aqua;
+}
+
+.b1{
+    font-size: 24px;
+    background-color: chartreuse;
+    padding: 5px;
+    margin: 5px;
+}
+
+.popupopen{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.endGame {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: darkorchid;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid gray;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  z-index: 10000;
+}
+
+.endGame.active {
+  display: block;
+}
+
+.colr{
+  background-color: darkorchid;
+  color: chartreuse;
+  font-size: 22px;
+}
+
+#result{
+    font-size: 26px;
+}
